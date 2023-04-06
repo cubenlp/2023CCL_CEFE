@@ -1,0 +1,306 @@
+[
+  {
+    "sent_id": 4722,
+    "sent": "这一种父爱与母爱的结合。",
+    "CourseGrainedErrorType": [
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "谓语残缺"
+    ]
+  },
+  {
+    "sent_id": 2500,
+    "sent": "在高一点的境界，就是不存在民族偏见，没有民族界限，站在人类的立场上思考问题的人那是最高境界的真英雄。",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "错别字错误",
+      "缺少标点"
+    ]
+  },
+  {
+    "sent_id": 8406,
+    "sent": "秋天是一个悲伤的季节，可能对于某些人秋天并不悲伤，对于我却是一个悲伤的季节，秋天树上的树叶从绿色变为了黄色的然后掉了下来，小草也从青色的变为了黄色的，然后枯萎了。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "其他成分残缺",
+      "缺少标点"
+    ]
+  },
+  {
+    "sent_id": 874,
+    "sent": "阳光晒下了大地，春风温柔地摸了摸行人的脸庞，在各个美丽的地方，他们有的会拿起相机“咔嚓”一下，把这当做青天的一份礼物永恒地保存下来。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分使用不当型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错别字错误",
+      "其他搭配不当"
+    ]
+  },
+  {
+    "sent_id": 8634,
+    "sent": "饭桌上除了老鹅，还有亲戚们与老鹅的政事，每次回六合，大家都会不厌其烦地讲述自己与店主的交情，那亲切的大合口者和传奇的故事总能使我百听不厌。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分使用不当型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错别字错误",
+      "语序不当"
+    ]
+  },
+  {
+    "sent_id": 3014,
+    "sent": "过程中，鲁达先使他将肉剁成花样儿，等到镇关西急不可待，伺机顺理成章地三拳打倒了郑屠。",
+    "CourseGrainedErrorType": [
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "其他成分残缺"
+    ]
+  },
+  {
+    "sent_id": 6711,
+    "sent": "但是每一场考试之后，父母看了试卷或仅仅问了成绩后只会说：“怎么才考这么点儿啊！是不是又偷偷玩了？”之类。",
+    "CourseGrainedErrorType": [
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "宾语残缺"
+    ]
+  },
+  {
+    "sent_id": 1795,
+    "sent": "天安门前有一巨大长方形广场。上面矗立着承载百年历史的英雄纪念碑，",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错用标点",
+      "其他成分残缺"
+    ]
+  },
+  {
+    "sent_id": 1055,
+    "sent": "他的右手呈握拳状，仿佛正握着弓箭，让人忍不住想象：角声漫夭，如血般红的斜阳映照在大地上，为这战场洒上了几分落日的余晖。",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "错别字错误"
+    ]
+  },
+  {
+    "sent_id": 6125,
+    "sent": "一切事物都有它必须遵守的矩：人不能背弃道德，更不能违法；国家发展不能以大肆破坏环境为代价，也不能漠视自身发展规律；文化的传承必须坚持“取其精华，去其糟粕”，封建陋习就应当抛弃；艺术应给人带来美感，带来思考……",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "缺字漏字"
+    ]
+  },
+  {
+    "sent_id": 6687,
+    "sent": "吴用与晁盖不同，他出生卑微，他也与武松不同，他没有高超的武艺。",
+    "CourseGrainedErrorType": [
+      "成分赘余型错误"
+    ],
+    "FineGrainedErrorType": [
+      "主语多余"
+    ]
+  },
+  {
+    "sent_id": 9621,
+    "sent": "看完了之后我在想如果我可以在青春赛道上赢下那我一定赢的很彻底很漂亮。",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "缺少标点",
+      "错别字错误"
+    ]
+  },
+  {
+    "sent_id": 552,
+    "sent": "说实话，初中我一点儿不喜欢。",
+    "CourseGrainedErrorType": [
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "其他成分残缺"
+    ]
+  },
+  {
+    "sent_id": 6768,
+    "sent": " 最重要的是弹的时候，傅雷认音乐的内容，必须要在自己心中，如果不在心中，再经名师指点也没用，弹时手要放松，保存自己的风格平时再认真练习，必会成功。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分使用不当型错误"
+    ],
+    "FineGrainedErrorType": [
+      "动宾搭配不当",
+      "缺少标点",
+      "缺字漏字"
+    ]
+  },
+  {
+    "sent_id": 1550,
+    "sent": "这就是我的班主任——张老师，她在日常的学习常规与习惯也许会比较严格，可是换一个角度来看，她也是一位母亲，对孩子也有着呵护与包容，这样一个严厉的却又十分友善的班主任，在我的心中也有着对她的一份爱戴与敬佩。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分赘余型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错用标点",
+      "虚词多余"
+    ]
+  },
+  {
+    "sent_id": 8928,
+    "sent": "大雪纷纷了三日，西湖上人声与鸟声大雪早已覆盖消失不见，晚间八时，欲撑小舟前湖心亭看雪，他裹着裘皮衣服，火炉的暖光笼罩着他，在湖岸树木上松散着白皑皑一片的雾松。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错别字错误",
+      "缺少标点",
+      "错用标点",
+      "谓语残缺"
+    ]
+  },
+  {
+    "sent_id": 6747,
+    "sent": "沙尘暴是指强风把大量沙尘卷入空中，使空气混浊。",
+    "CourseGrainedErrorType": [
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "宾语残缺"
+    ]
+  },
+  {
+    "sent_id": 1072,
+    "sent": "我和小雍是六年级时认识的，她刚，我们便成了要好的朋友。",
+    "CourseGrainedErrorType": [
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "谓语残缺"
+    ]
+  },
+  {
+    "sent_id": 3317,
+    "sent": "我也受到了感染，怔怔地看着舞台上那抹优雅的倩影。也不禁喝起彩来。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分赘余型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错用标点",
+      "虚词多余"
+    ]
+  },
+  {
+    "sent_id": 5344,
+    "sent": "“稍息”“立正”体育老师喊道，我们也随之站好，尽管我们正在阳光之下，我们也应该努做好每一样动作，正所谓“拥有一个健康的身体才是学习的资本。",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "错别字错误",
+      "缺字漏字",
+      "缺少标点"
+    ]
+  },
+  {
+    "sent_id": 6638,
+    "sent": "他也对宋江的权利给予制衡，在宋江提出招安时武松第一个反对，李逵开始反对后被宋江说服，只有鲁智深站出来为武松辩解，委婉表明自己也反对招安，可谓是行不苟合。",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "缺少标点"
+    ]
+  },
+  {
+    "sent_id": 593,
+    "sent": "白嫩红润的小脸蛋镶着一个挺直，秀美的小鼻子。",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "缺字漏字",
+      "错用标点"
+    ]
+  },
+  {
+    "sent_id": 3093,
+    "sent": "只到看见他从阳台上拿起了一个喷水壶，我才知道事情的严重性，可这时已经晚了，他用他最快的速度跑进客厅，他一手拿着手瓶，一看按着瓶子，对着客厅进行着灾难性的侵略，水喷完了，人也湿透了，我的心此时也凉了，",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分赘余型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错用标点",
+      "主语多余",
+      "错别字错误"
+    ]
+  },
+  {
+    "sent_id": 5654,
+    "sent": "由于冰场优先给专业运动员训练，他常常要在凌晨训练。",
+    "CourseGrainedErrorType": [
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "其他成分残缺"
+    ]
+  },
+  {
+    "sent_id": 848,
+    "sent": "随着科技的发展手机的功能越来越多，人们不仅仅是用它来打电话；还用它来娱乐、购物、拍照等等。",
+    "CourseGrainedErrorType": [
+      "字符级错误"
+    ],
+    "FineGrainedErrorType": [
+      "错用标点",
+      "缺少标点"
+    ]
+  },
+  {
+    "sent_id": 7229,
+    "sent": "个人兴趣固然重要，更重要的是学会将兴趣发展到多层次，多方面，一味地追求快乎是不可取得，更应满足社会和国家的需要，因为只有人民有发展的动力，国家才会有前徒可塑。",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分残缺型错误"
+    ],
+    "FineGrainedErrorType": [
+      "错用标点",
+      "主语不明"
+    ]
+  },
+  {
+    "sent_id": 3092,
+    "sent": "我的弟弟看似十分的文静，却十分顽皮，有一次在家里，爸爸妈妈，都不在，就只有我和和弟弟，当时他还很小，刚学会走路，以为不会做出什么过分的事情，当我看见他拿起一个小登子，朝着阳台过去，不知道他想要做什么，也没去多管，",
+    "CourseGrainedErrorType": [
+      "字符级错误",
+      "成分残缺型错误",
+      "成分赘余型错误"
+    ],
+    "FineGrainedErrorType": [
+      "虚词多余",
+      "错用标点",
+      "主语不明"
+    ]
+  }
+]
