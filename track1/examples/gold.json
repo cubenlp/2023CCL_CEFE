@@ -1,0 +1,43 @@
+[
+    {
+        "sent_id": 4264,
+        "sent": "我也不敢说什么，心里也挺烦，就直接下楼了，连声招呼都没打。",
+        "CourseGrainedErrorType": [
+          "成分搭配不当型错误"
+        ],
+        "FineGrainedErrorType": [
+          "语序不当"
+        ]
+    },
+    {
+        "sent_id": 8885,
+        "sent": "老师刚说，话音未落就见我们消失在果树之中，果树上都是橙子，我们8人分成4组，两人两把剪刀一个栏子，我们两人一起行动，另一人是小宇，我的好兄弟，",
+        "CourseGrainedErrorType": [
+          "字符级错误"
+        ],
+        "FineGrainedErrorType": [
+          "错别字错误",
+          "错用标点"
+        ]
+    },
+    {
+        "sent_id": 4927,
+        "sent": "忽然“嗒”一声微弱的脆响雨滴落入了小水坑中，凌霄花又抬起了头，皱巴巴的小脸，却偏苦涩涩地笑着，雨势渐停，方才显得粉白的苦笑，又有了红润的喜色，轻抖身上的雨珠，挺直了腰板。",
+        "CourseGrainedErrorType": [
+          "字符级错误",
+          "成分残缺型错误",
+          "成分赘余型错误"
+        ],
+        "FineGrainedErrorType": [
+          "主语不明",
+          "缺少标点",
+          "其他成分多余"
+        ]
+    },
+    {
+        "sent_id": 9544,
+        "sent": "不同性格下的不同心理，着实难以真正揣摩。",
+        "CourseGrainedErrorType": [],
+        "FineGrainedErrorType": []
+    }
+]
