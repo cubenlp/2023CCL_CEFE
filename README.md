@@ -41,7 +41,7 @@
 
 &emsp;&emsp;中小学作文病句类型识别是一个多标签分类问题，预测一条句子是哪些类型的病句。病句类型标签同时包含词法、句法、语义错误，本次评测任务共定义4个粗粒度错误类型和14个细粒度错误类型。病句类别定义及示例如下表1：
 
-![表1 中小学作文病句类型识别赛道病句类型](https://github.com/paopaobubbletang/test/blob/main/%E8%A1%A81%E4%B8%AD%E5%B0%8F%E5%AD%A6%E4%BD%9C%E6%96%87%E7%97%85%E5%8F%A5%E7%B1%BB%E5%9E%8B%E8%AF%86%E5%88%AB%E8%B5%9B%E9%81%93%E7%97%85%E5%8F%A5%E7%B1%BB%E5%9E%8B.png#{height="50%";width="50%";})
+![表1 中小学作文病句类型识别赛道病句类型](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/%E8%A1%A81%E4%B8%AD%E5%B0%8F%E5%AD%A6%E4%BD%9C%E6%96%87%E7%97%85%E5%8F%A5%E7%B1%BB%E5%9E%8B%E8%AF%86%E5%88%AB%E8%B5%9B%E9%81%93%E7%97%85%E5%8F%A5%E7%B1%BB%E5%9E%8B.png#{height="50%";width="50%";})
 <p align="center">表1 中小学作文病句类型识别赛道病句类型</p>
 
 ## 1.2 赛道2：中小学作文字符级错误识别与纠正
