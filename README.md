@@ -67,3 +67,221 @@
 
 &emsp;&emsp;中小学作文病句改写任务是一个文本生成任务，输入错误句子，输出修改后的句子。
 
+# 2 评测数据
+
+&emsp;&emsp;评测分为Test A和Test B两个阶段，测试集中可能包含正确句子，盲测数据选取子集进行评测；允许参赛者使用其他来源数据进行训练，如人工标注、使用模型或工具自动标注等，如有使用请在技术报告中详细说明。各赛道的评测数据样例及分布如下。
+
+## 2.1 赛道1：中小学作文病句类型识别
+
+- **数据样例**
+
+```json
+{
+    "sent_id":"3205",
+    "sent":"走进那里仿佛爱丽丝梦游仙境，传统的旋转木马全换了形态各异的大鸟，旁边的转车也变成了狮子和老虎追逐，大家是不是也想来坐一坐呢。",
+    "CourseGrainedErrorType":["字符级错误","成分残缺型错误"],
+    "FineGrainedErrorType":["错用标点","谓语残缺"]
+}
+```
+
+<p align="center">图1 中小学作文病句类型识别赛道数据样例</p>
+
+&emsp;&emsp;图1为赛道1的数据样例，具体包括句子ID、句子序列、粗粒度错误类别、细粒度错误类别，编码格式为UTF-8。
+
+- **评测数据集**
+
+&emsp;&emsp;该赛道的数据来源于中学生作文数据，各项数据分布如表3所示。
+
+<div align="center">
+
+
+| 数据集（Data Set） | 句子数（sentences） |
+|:---:|:---:|
+| 训练集（Train Set） | 104句 |
+| 验证集（Dev Set） | 27句 |
+| 测试集（Test A） | 约2000句 |
+| 盲测集（Test B） | 约4000句 |
+
+
+</div>
+
+<p align="center">表3 中小学作文病句类型识别赛道数据分布</p>
+
+## 2.2 赛道2：中小学作文字符级错误识别与纠正
+
+- **数据样例**
+
+```json
+{
+    "sent_id":"3201",
+    "sent":"他把我推了推说：“我不需要你们的帮，我觉得我自己可以拼好。”",
+    "CgecErrorType":["缺字漏字"],
+    "results":[(17,'A','助')]
+}
+```
+
+<p align="center">图2 中小学作文字符级错误识别与纠正赛道数据样例</p>
+
+&emsp;&emsp;图2为赛道2的数据样例，具体包括句子ID、句子序列、错误类别、错误定位与修正列表，其中修正三元组的含义为：（待修正字在原句中的下标，需要执行的操作，修改的结果），对于需要删除的情况，修改的结果为“None”。
+
+- **评测数据集**
+
+&emsp;&emsp;该赛道的数据来源于中学生作文数据，各项数据分布如表4所示。
+
+<div align="center">
+
+| 数据集（Data Set） | 句子数（sentences） |
+|:---:|:---:|
+| 训练集（Train Set） | 103句 |
+| 验证集（Dev Set） | 22句 |
+| 测试集（Test A） | 约1000句 |
+| 盲测集（Test B） | 约4000句 |
+
+</div>
+
+<p align="center">表4 中小学作文字符级错误识别与纠正赛道数据分布</p>
+
+## 2.3 赛道3：中小学作文病句改写
+
+- **数据样例**
+
+```json
+{
+    "sent_id":"3202",
+    "sent":"上周五，我就在学校用刀切破了同学的手，原因全怪我毛手毛脚，大大咧咧，用刀太快。",
+    "revisedSent":"上周五，我就在学校用刀切破了同学的手，全怪我毛手毛脚，大大咧咧，用刀太快。"
+}
+```
+
+<p align="center">图3 中小学作文病句改写赛道数据样例</p>
+
+&emsp;&emsp;图3为赛道3的数据样例，具体包括句子ID、句子序列、修改后的句子，编码格式为UTF-8。
+
+- **评测数据集**
+
+&emsp;&emsp;该赛道的数据来源于中小学生作文数据，各项数据分布如表5所示。
+
+<div align="center">
+
+| 数据集（Data Set） | 句子数（sentences） |
+|:---:|:---:|
+| 训练集（Train Set） | 100句 |
+| 验证集（Dev Set） | 19句 |
+| 测试集（Test A） | 约1500句 |
+| 盲测集（Test B） | 约3000句 |
+
+</div>
+<p align="center">表5 中小学作文病句改写赛道数据分布</p>
+
+# 3 评价标准
+
+## 3.1 赛道1：中小学作文病句类型识别
+
+&emsp;&emsp;总分由两部分组成：粗粒度病句识别分数和细粒度病句识别分数，具体计算方式如下：
+
+![track1 equation](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track1_equation.png)
+
+&emsp;&emsp;本任务采用精确率（Precision, P）、召回率（Recall, R）、F1值（Micro F1）来评估粗、细粒度病句类型的识别效果，计算公式如下：
+
+&emsp;&emsp;&emsp;&emsp;病句类型识别精确率=识别病句类型和标注相同的数量/识别出的该病句类型的总数量；
+
+&emsp;&emsp;&emsp;&emsp;病句类型识别召回率=识别病句类型和标注相同的数量/标注出的该病句类型的总数量；
+
+&emsp;&emsp;&emsp;&emsp;病句类型F1值=(2\*病句类型识别精确率\*病句类型识别召回率)/(病句类型识别精确率+病句类型识别召回率)。
+
+## 3.2 赛道2：中小学作文字符级错误识别与纠正
+
+&emsp;&emsp;总分由两部分组成：字符级错误类型识别分数和字符级错误纠正分数，具体计算方法如下（正确句子不计算在内）：
+
+![track2 equation1](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation1.png)
+
+- **字符级错误类型识别**
+
+&emsp;&emsp;采用精确率（Precision, P）、召回率（Recall, R）、F1值（Micro F1）来评估字符级错误类型的识别效果：
+
+&emsp;&emsp;&emsp;&emsp;错误类型识别精确率=识别错误类型和标注相同的数量/识别出的该错误类型的总数量；
+
+&emsp;&emsp;&emsp;&emsp;错误类型识别召回率=识别错误类型和标注相同的数量/标注出的该错误类型的总数量；
+
+&emsp;&emsp;&emsp;&emsp;错误类型F1值=(2\*错误类型识别精确率\*错误类型识别召回率)/(错误类型识别精确率+错误类型识别召回率)。
+
+- **字符级错误纠正**
+
+&emsp;&emsp;采用精确率（Precision, P）、召回率（Recall, R）、F1值（Micro F1）对结果进行评估。从字粒度和句子粒度进行评估，具体计算方式如下：
+
+![track2 equation1](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation1.png)
+
+&emsp;&emsp;各粒度又从检测和纠正两部分对结果进行评估，具体计算方式如下：
+
+![track2 equation2](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation2.png)
+
+&emsp;&emsp;各precision、recall计算方式：
+
+![track2 equation3](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation3.png)
+
+![track2 equation4](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation4.png)
+
+![track2 equation5](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation5.png)
+
+![track2 equation6](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation6.png)
+
+![track2 equation7](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation7.png)
+
+![track2 equation8](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation8.png)
+
+![track2 equation9](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation9.png)
+
+![track2 equation10](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation10.png)
+
+![track2 equation11](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation11.png)
+
+## 3.3 赛道3：中小学作文病句改写  
+
+&emsp;&emsp;由于参赛者提供的改写结果是多样的，因此该任务的评测综合考虑自动评分和与标注的参考改正方案的打分，其中自动评分的原则是句子流畅和与原句的改动尽可能小；在此基础之上对最终排名前5的队伍进行人工辅助评测。正确句子不计算在内。总分计算方式如下：
+
+&emsp;&emsp;具体计算方式详见本赛道的评测脚本。
+
+# 4 评测赛程
+
+## 4.1 赛程
+
+&emsp;&emsp;2023年4月10日：评测报名开始，任务主页点击链接报名；发布训练集及评测脚本给参赛队；
+
+&emsp;&emsp;2023年5月3日：发布不带黄金标准答案的测试集Test A给参赛队，开放结果提交链接；
+
+&emsp;&emsp;2023年5月15日：报名截止；
+
+&emsp;&emsp;2023年5月25日：发布不带黄金标准答案的盲测Test B数据集给参赛队；
+
+&emsp;&emsp;2023年6月9日：盲测Test B提交截止；
+
+&emsp;&emsp;2023年6月13日：公布参赛队伍的成绩和排名（并非最终排名，还需参考技术报告）；
+
+&emsp;&emsp;2023年6月22日：技术报告提交截止；
+
+&emsp;&emsp;2023年7月7日：公布获奖名单；
+
+## 4.2 报告格式
+
+- 报告可由中文或英文撰写。
+- 报告统一使用CCL 2023 的[论文模版](http://cips-cl.org/static/CCL2023/downloads/ccl2023_template.zip)。
+- 报告应至少包含以下四个部分：模型介绍、评测结果、结果分析与讨论和参考文献。
+
+# 5 奖项设置
+
+- 本次评测将设置一、二、三等奖，由中国中文信息学会为本次评测获奖队伍提供荣誉证书
+
+- 奖金：共计5000元
+
+# 6 参考文献
+
+[1]Lawrence M Rudner, Veronica Garcia, and Catherine Welch. 2006. An evaluation of intellimetricessay scoring system. The Journal of Technology, Learning and Assessment, 4(4).
+
+[2]吴恩慈, 田俊华. 基于语言学特征的小学生作文流畅性自动评价[J]. 教育测量与评价, 2020 (3): 41-50.
+
+[3] Yang Y, Xia L, Zhao Q. An automated grader for Chinese essay combining shallow and deep semantic attributes[J]. IEEE Access, 2019, 7: 176306-176316.
+
+[4] Gong J, Hu X, Song W, et al. IFlyEA: A Chinese Essay Assessment System with Automated Rating, Review Generation, and Recommendation[C]//Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations. 2021: 240-248.
+
+[5] Farjana Sultana Mim, Naoya Inoue, Paul Reisert, Hiroki Ouchi, Kentaro Inui: Corruption Is Not All Bad: Incorporating Discourse Structure Into Pre-Training via Corruption for Essay Scoring. IEEE ACM Trans. Audio Speech Lang. Process. 29: 2202-2215 (2021)
+
