@@ -16,3 +16,14 @@
 
 ![表2 中小学作文字符级错误识别与纠正赛道错误类型](https://github.com/paopaobubbletang/test/blob/main/%E8%A1%A82%E4%B8%AD%E5%B0%8F%E5%AD%A6%E4%BD%9C%E6%96%87%E5%AD%97%E7%AC%A6%E7%BA%A7%E9%94%99%E8%AF%AF%E8%AF%86%E5%88%AB%E4%B8%8E%E7%BA%A0%E6%AD%A3%E8%B5%9B%E9%81%93%E9%94%99%E8%AF%AF%E7%B1%BB%E5%9E%8B.png#{height="50%";width="50%";})
 <p align="center">表2 中小学作文字符级错误识别与纠正赛道错误类型</p>
+
+## 3 结果提交格式
+
+```json
+{
+    "sent_id":"3201",
+    "sent":"他把我推了推说：“我不需要你们的帮，我觉得我自己可以拼好。”",
+    "CgecErrorType":["缺字漏字"],
+    "results":[(17,'A','助')]
+}
+```
