@@ -23,3 +23,14 @@
 
 ![表1 中小学作文病句类型识别赛道病句类型](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/%E8%A1%A81%20%E4%B8%AD%E5%B0%8F%E5%AD%A6%E4%BD%9C%E6%96%87%E7%97%85%E5%8F%A5%E7%B1%BB%E5%9E%8B%E8%AF%86%E5%88%AB%E8%B5%9B%E9%81%93%E7%97%85%E5%8F%A5%E7%B1%BB%E5%9E%8B.svg#{height="50%";width="50%";})
 <p align="center">表1 中小学作文病句类型识别赛道病句类型</p>
+
+## 3 结果提交格式
+
+```json
+{
+    "sent_id":"3205",
+    "sent":"走进那里仿佛爱丽丝梦游仙境，传统的旋转木马全换了形态各异的大鸟，旁边的转车也变成了狮子和老虎追逐，大家是不是也想来坐一坐呢。",
+    "CourseGrainedErrorType":["字符级错误","成分残缺型错误"],
+    "FineGrainedErrorType":["错用标点","谓语残缺"]
+}
+```
