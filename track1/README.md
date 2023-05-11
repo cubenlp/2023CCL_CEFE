@@ -10,6 +10,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Test | her***@qq.com | 36.11 | 20.14 | 46.04 | 26.19 | 28.54 | 11.75 |
 
+&emsp;&emsp;2023年5月11日提交结果：
+
+| Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Test | her***@qq.com | 30.40 | 22.17 | 43.26 | 17.54 | 33.31 | 11.03 |
 
 ## 2 任务简述
 
