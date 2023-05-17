@@ -4,17 +4,16 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在粗粒度类别和细粒度类别的micro f1及macro f1的结果供大家参考，最终按照Final micro f1分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年5月16日，榜单更新时间：2023年5月16日22时。
+&emsp;&emsp;结果统计截止至2023年5月17日，榜单更新时间：2023年5月17日22时。
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Test | her***@qq.com | 42.25 | 19.90 | 54.56 | 29.93 | 29.19 | 10.62 |
 
-&emsp;&emsp;2023年5月16日提交结果：
+&emsp;&emsp;2023年5月17日提交结果：
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Test | her***@qq.com | 42.25 | 19.90 | 54.56 | 29.93 | 29.19 | 10.62 |
 
 ## 2 任务简述
 
