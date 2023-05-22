@@ -8,6 +8,7 @@
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Test | her***@qq.com | 42.25 | 19.90 | 54.56 | 29.93 | 29.19 | 10.62 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 19.99 | 36.77 | 3.21 | 4.00 | 2.06 | 1.85 | 0.58 |
 
 &emsp;&emsp;2023年5月21日提交结果：
 
