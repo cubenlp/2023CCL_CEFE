@@ -195,7 +195,7 @@
 
 &emsp;&emsp;总分由两部分组成：字符级错误类型识别分数和字符级错误纠正分数，具体计算方法如下（正确句子不计算在内）：
 
-![track2 equation1](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation1.png)
+![track2 equation1](https://github.com/cubenlp/2023CCL_CEFE/blob/main/imgs/track2_equation2.png)
 
 - **字符级错误类型识别**
 
