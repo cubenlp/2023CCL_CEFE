@@ -14,6 +14,7 @@
 &emsp;&emsp;2023年5月21日提交结果：
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | yang | 231***@qq.com | 40.5 | 27.14 | 55.94 | 25.05 | 41.25 | 13.03 |
 
 ## 2 任务简述
