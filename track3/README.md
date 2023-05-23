@@ -4,7 +4,7 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在Bert PPL、与input的编辑距离、BLEU-4、BertScore指标上的结果，另外，我们增加了最近在语法纠错任务上常用的评测指标，具体计算方法参考[MuCGEC](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT?spm=5176.12282016.0.0.7a106b1dPaf6TP)，排行榜将按照F0.5值进行排名，最终实际排名将综合考虑上述所有指标，在此基础之上对排名前5的队伍进行人工辅助评测，得到最终排名。
 
-&emsp;&emsp;结果统计截止至2023年5月21日，榜单更新时间：2023年5月22日。
+&emsp;&emsp;结果统计截止至2023年5月22日，榜单更新时间：2023年5月23日。
 
 | Team Name | Email | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,7 @@
 | 天天好心晴 | 270***@qq.com | 2.72 | 5.54 | 83.08 | 94.54 | 7.90 | 6.74 | 7.64 |
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 3.16 | 3.35| 85.85 | 96.57 | 5.35 | 3.96 | 5.00 |
 
-&emsp;&emsp;2023年5月21日提交结果（未排名）：
+&emsp;&emsp;2023年5月22日提交结果（未排名）：
 | Team Name | Email | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 3.16 | 3.35| 85.85 | 96.57 | 5.35 | 3.96 | 5.00 |
