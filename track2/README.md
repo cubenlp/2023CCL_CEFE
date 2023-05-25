@@ -7,14 +7,14 @@
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 28.95 | 34.00 | 23.90 | 26.35 | 19.46 | 21.27 | 12.88 |
+| yang | 231***@qq.com | 40.31 | 56.73 | 23.90 | 26.35 | 19.46 | 21.27 | 12.88 |
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 19.99 | 36.77 | 3.21 | 4.00 | 2.06 | 1.85 | 0.58 |
 
-&emsp;&emsp;2023年5月23日提交结果：
+&emsp;&emsp;2023年5月24日提交结果：
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 28.95 | 34.00 | 23.90 | 26.35 | 19.46 | 21.27 | 12.88 |
+| yang | 231***@qq.com | 40.31 | 56.73 | 23.90 | 26.35 | 19.46 | 21.27 | 12.88 |
 
 
 ## 2 任务简述
