@@ -4,21 +4,23 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在粗粒度类别和细粒度类别的micro f1及macro f1的结果供大家参考，最终按照Final micro f1分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年5月25日，榜单更新时间：2023年5月26日。
+&emsp;&emsp;结果统计截止至2023年5月26日，榜单更新时间：2023年5月27日。
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 44.78 | 26.58 | 55.94 | 33.63 | 41.25 | 11.92 |
-| Test | her***@qq.com | 42.25 | 19.90 | 54.56 | 29.93 | 29.19 | 10.62 |
+| Test | her***@qq.com | 47.99 | 21.5 | 61.26 | 34.71 | 31.01 | 11.99 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 47.09 | 25.45 | 60.18 | 34.0 | 36.4 | 14.5 |
+| yang | 231***@qq.com | 45.89 | 21.74 | 58.16 | 33.63 | 31.57 | 11.92 |
 | BLCU-LCC-Lab | shu***@163.com | 40.54 | 23.9 | 53.7 | 27.38 | 35.96 | 11.84 |
 
 
-&emsp;&emsp;2023年5月25日提交结果（未排名）：
+&emsp;&emsp;2023年5月26日提交结果（未排名）：
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLCU-LCC-Lab | shu***@163.com | 27.79 | 15.4 | 46.01 | 9.56 | 26.43 | 4.36 |
-| yang | 231***@qq.com | 44.78 | 26.58 | 55.94 | 33.63 | 41.25 | 11.92 |
+| yang | 231***@qq.com | 45.89 | 21.74 | 58.16 | 33.63 | 31.57 | 11.92 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 47.09 | 25.45 | 60.18 | 34.0 | 36.4 | 14.5 |
+| Test | her***@qq.com | 47.99 | 21.5 | 61.26 | 34.71 | 31.01 | 11.99 |
 
 ## 2 任务简述
 
