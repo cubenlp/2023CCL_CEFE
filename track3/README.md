@@ -4,35 +4,76 @@
 
 ### 测试集B排行榜
 
-&emsp;&emsp;我们提供了各参赛队伍在Bert PPL、与input的编辑距离、BLEU-4、BertScore指标上的结果，另外，我们增加了最近在语法纠错任务上常用的评测指标，具体计算方法参考[MuCGEC](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT?spm=5176.12282016.0.0.7a106b1dPaf6TP)，排行榜将按照F0.5值进行排名，最终实际排名将综合考虑上述所有指标，在此基础之上对排名前5的队伍进行人工辅助评测，得到最终排名。
+&emsp;&emsp;我们提供了各参赛队伍在EM(Exact Match)、Bert PPL、与input的编辑距离、BLEU-4、BertScore指标上的结果，另外，我们增加了最近在语法纠错任务上常用的评测指标，具体计算方法参考[MuCGEC](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT?spm=5176.12282016.0.0.7a106b1dPaf6TP)，排行榜将按照F0.5值进行排名，最终实际排名将综合考虑上述所有指标，在此基础之上对排名前5的队伍进行人工辅助评测，得到最终排名。
 
-&emsp;&emsp;结果统计截止至2023年5月27日，榜单更新时间：2023年5月28日。
+&emsp;&emsp;结果统计截止至2023年5月28日，榜单更新时间：2023年5月29日。
 
-| Team Name | Email | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 2.94 | 1.23 | 90.72 | 97.63 | 47.77 | 24.37 | 40.08 |
-| nlp小队 | hua***@163.com | 3.12 | 0.67 | 87.86 | 96.71 | 11.35 | 2.58 | 6.75 |
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 12.85 | 2.94 | 1.23 | 90.72 | 97.63 | 47.77 | 24.37 | 40.08 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 9.34 | 2.98 | 1.48 | 89.28 | 97.49 | 55.06 | 17.82 | 38.83 |
+| nlp小队 | hua***@163.com | 1.26 | 3.12 | 0.67 | 87.86 | 96.71 | 11.35 | 2.58 | 6.75 |
+
+
+&emsp;&emsp;2023年5月28日提交结果（未排名）：
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 9.34 | 2.98 | 1.48 | 89.28 | 97.49 | 55.06 | 17.82 | 38.83 |
+| yang | 231***@qq.com | 12.85 | 2.94 | 1.25 | 90.71 | 97.63 | 47.51 | 24.59 | 40.04 |
 
 
 &emsp;&emsp;2023年5月27日提交结果（未排名）：
-| Team Name | Email | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| nlp小队 | hua***@163.com | 3.12 | 0.67 | 87.86 | 96.71 | 11.35 | 2.58 | 6.75 |
-| yang | 231***@qq.com | 2.94 | 1.23 | 90.72 | 97.63 | 47.77 | 24.37 | 40.08 |
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| nlp小队 | hua***@163.com | 1.26 | 3.12 | 0.67 | 87.86 | 96.71 | 11.35 | 2.58 | 6.75 |
+| yang | 231***@qq.com | 12.85 | 2.94 | 1.23 | 90.72 | 97.63 | 47.77 | 24.37 | 40.08 |
 
 
 ### 测试集A排行榜
 
-| Team Name | Email | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SEU-社会计算 | su_\*\*\*@seu.edu.cn | 3.28 | 1.19 | 91.35 | 97.78 | 13.87 | 7.63 | 11.92 |
-| yang | 231***@qq.com | 3.23 | 1.24 | 91.45 | 97.78 | 13.687 | 7.72 | 11.85 |
-| nlp小队 | hua***@163.com | 3.41 | 0.73 | 88.25 | 96.82 | 15.51 | 4.13 | 10.00 |
-| 不再掉头发 | 878***@qq.com | 3.47 | 1.75 | 89.70 | 97.48 | 9.97 | 7.72 | 9.41 |
-| 面壁者 | 686***@qq.com | 3.33 | 0.69 | 90.43 | 97.73 | 12.97 | 3.37 | 8.26 |
-| 天天好心晴 | 270***@qq.com | 2.72 | 5.54 | 83.08 | 94.54 | 7.90 | 6.74 | 7.64 |
-| 切忌不要改队 | yix***@ir.hit.edu.cn | 3.16 | 3.35| 85.85 | 96.57 | 5.35 | 3.96 | 5.00 |
-| just do it | 129***@qq.com | 3.41 | 0.91 | 88.45 | 96.90 | 6.14 | 2.02 | 4.36 |
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+&emsp;&emsp;2023年5月26日提交结果（未排名）：
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 天天好心晴 | 270***@qq.com | 3.72 | 3.41 | 0.91 | 88.10 | 96.76 | 18.64 | 5.77 | 12.89 |
+| just do it | 129***@qq.com | 4.45 | 3.41 | 0.91 | 88.45 | 96.90 | 21.23 | 6.99 | 15.09 |
+| nlp小队 | hua***@163.com | 5.18 | 3.40 | 1.00 | 88.44 | 96.96 | 22.64 | 8.59 | 17.06 |
+| yang | 231***@qq.com | 20.39 | 3.25 | 1.32 | 91.29 | 97.77 | 47.45 | 28.94 | 42.07 |
+
+&emsp;&emsp;2023年5月25日提交结果（未排名）：
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SEU-社会计算 | su\_\*\*\*@seu.edu.cn | 19.26 | 3.27 | 1.19 | 91.35 | 97.78 | 49.62 | 27.38 | 42.69 |
+| yang | 231***@qq.com | 19.42 | 3.23 | 1.24 | 91.45 | 97.78 | 49.52 | 27.97 | 42.91 |
+
+&emsp;&emsp;2023年5月24日提交结果（未排名）：
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| just do it | 129***@qq.com | 1.54 | 4.39 | 12.38 | 65.35 | 91.81 | 8.35 | 25.95 | 9.66 |
+| 天天好心晴 | 270***@qq.com | 4.69 | 4.54 | 7.26 | 76.74 | 94.63 | 12.72 | 27.63 | 14.26 |
+| nlp小队 | hua***@163.com | 3.96 | 3.34 | 1.29 | 87.81 | 97.09 | 17.88 | 8.09 | 14.39 |
+| yang | 231***@qq.com | 5.91 | 3.41 | 0.45 | 89.89 | 97.44 | 30.64 | 7.03 | 18.34 |
+
+&emsp;&emsp;2023年5月23日提交结果（未排名）：
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+
+&emsp;&emsp;2023年5月21日提交结果（未排名）：
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+&emsp;&emsp;2023年5月20日提交结果（未排名）：
+| Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
 
 ## 2 任务简述
 
