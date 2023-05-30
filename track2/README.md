@@ -5,17 +5,17 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在错误类型识别和错误纠正的效果供大家参考，具体包括F1_score（各指标加权F1）、Identify（错误类型识别F1）、Correct（错误纠正F1）、Char_detection（字粒度检测F1）、Char_correction（字粒度纠正F1）、Sent_detection（句粒度检测F1）、Sent_correction（句粒度纠正F1），最终按照F1_score分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年5月29日，榜单更新时间：2023年5月30日。
+&emsp;&emsp;结果统计截止至2023年5月30日，榜单更新时间：2023年5月31日。
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | yang | 231***@qq.com | 57.65 | 62.77 | 52.53 | 53.83 | 54.79 | 49.64 | 34.13 |
 
-&emsp;&emsp;2023年5月29日提交结果：
+&emsp;&emsp;2023年5月30日提交结果：
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 51.36 | 50.19 | 52.53 | 53.83 | 54.79 | 49.64 | 34.13 |
+| yang | 231***@qq.com | 57.65 | 62.80 | 52.50 | 53.78 | 54.72 | 49.72 | 34.26 |
 
 ### 测试集A排行榜
 
