@@ -10,17 +10,16 @@
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 47.54 | 25.98 | 57.78 | 37.3 | 37.5 | 14.45 |
+| yang | 231***@qq.com | 49.76 | 31.55 | 59.6 | 39.91 | 44.26 | 18.83 |
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 43.20 | 27.63 | 55.44 | 30.96 | 39.19 | 16.07 |
-| Test | her***@qq.com | 35.79 | 19.05 | 48.05 | 23.52 | 28.85 | 9.24 |
+| Test | her***@qq.com | 40.88 | 21.71 | 51.98 | 29.78 | 32.42 | 11.0 |
 
-&emsp;&emsp;2023年5月29日提交结果（未排名）：
+&emsp;&emsp;2023年5月30日提交结果（未排名）：
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Test | her***@qq.com | 35.79 | 19.05 | 48.05 | 23.52 | 28.85 | 9.24 |
-| yang | 231***@qq.com | 40.04 | 22.16 | 50.37 | 29.7 | 32.32 | 11.99 |
-| 切忌不要改队 | yix***@ir.hit.edu.cn | 43.20 | 27.63 | 55.44 | 30.96 | 39.19 | 16.07 |
+| Test | her***@qq.com | 40.88 | 21.71 | 51.98 | 29.78 | 32.42 | 11.0 |
+| yang | 231***@qq.com | 49.76 | 31.55 | 59.6 | 39.91 | 44.26 | 18.83 |
 
 ### 测试集A排行
 
