@@ -9,13 +9,13 @@
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 57.65 | 62.77 | 52.53 | 53.83 | 54.79 | 49.64 | 34.13 |
+| yang | 231***@qq.com | 57.71 | 62.80 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
 
 &emsp;&emsp;2023年5月30日提交结果：
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 57.65 | 62.80 | 52.50 | 53.78 | 54.72 | 49.72 | 34.26 |
+| yang | 231***@qq.com | 57.71 | 62.80 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
 
 ### 测试集A排行榜
 
