@@ -6,7 +6,7 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在EM(Exact Match)、Bert PPL、与input的编辑距离、BLEU-4、BertScore指标上的结果，另外，我们增加了最近在语法纠错任务上常用的评测指标，具体计算方法参考[MuCGEC](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT?spm=5176.12282016.0.0.7a106b1dPaf6TP)，排行榜将按照F0.5值进行排名，最终实际排名将综合考虑上述所有指标，在此基础之上对排名前5的队伍进行人工辅助评测，得到最终排名。
 
-&emsp;&emsp;结果统计截止至2023年5月30日，榜单更新时间：2023年5月31日。
+&emsp;&emsp;结果统计截止至2023年5月31日，榜单更新时间：2023年6月1日。
 
 | Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,9 +19,7 @@
 &emsp;&emsp;2023年5月30日提交结果（未排名）：
 | Team Name | Email | EM | Bert PPL | Levenshtein | BLEU-4 | BertScore | Precision | Recall | F0.5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 切忌不要改队 | yix***@ir.hit.edu.cn | 11.77 | 2.72 | 6.29 | 82.21 | 95.82 | 36.13 | 22.75 | 32.33 |
-| SEU-社会计算 | su_\*\*\*@seu.edu.cn | 11.95 | 2.90 | 1.75 | 89.82 | 97.50 | 39.70 | 28.21 | 36.71 |
-| yang | 231***@qq.com | 13.03 | 2.94 | 1.25 | 90.73 | 97.63 | 47.68 | 24.67 | 40.18 |
+| SEU-社会计算 | su_\*\*\*@seu.edu.cn | 13.21 | 2.93 | 1.44 | 90.38 | 97.60 | 43.79 | 26.33 | 38.66 |
 
 
 ### 测试集A排行榜
