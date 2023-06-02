@@ -6,7 +6,7 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在粗粒度类别和细粒度类别的micro f1及macro f1的结果供大家参考，最终按照Final micro f1分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年6月1日，榜单更新时间：2023年6月2日。
+&emsp;&emsp;结果统计截止至2023年6月2日，榜单更新时间：2023年6月2日23时30分。
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,11 +14,11 @@
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 43.20 | 27.63 | 55.44 | 30.96 | 39.19 | 16.07 |
 | Test | her***@qq.com | 40.88 | 21.71 | 51.98 | 29.78 | 32.42 | 11.0 |
 
-&emsp;&emsp;2023年6月1日提交结果（未排名）：
+&emsp;&emsp;2023年6月2日提交结果（未排名）：
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 切忌不要改队 | yix***@ir.hit.edu.cn | 37.38 | 33.11 | 47.44 | 27.31 | 45.08 | 21.13 |
+| yang | 231***@qq.com | 44.21 | 22.61 | 50.17 | 38.26 | 29.93 | 15.29 |
 
 ### 测试集A排行
 
