@@ -5,17 +5,19 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在错误类型识别和错误纠正的效果供大家参考，具体包括F1_score（各指标加权F1）、Identify（错误类型识别F1）、Correct（错误纠正F1）、Char_detection（字粒度检测F1）、Char_correction（字粒度纠正F1）、Sent_detection（句粒度检测F1）、Sent_correction（句粒度纠正F1），最终按照F1_score分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年6月2日，榜单更新时间：2023年6月2日23时30分。
+&emsp;&emsp;结果统计截止至2023年6月3日，榜单更新时间：2023年6月4。
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 57.91 | 63.21 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+| yang | 231***@qq.com | 59.85 | 67.08 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 41.34 | 45.80 | 36.88 | 38.05 | 37.79 | 33.37 | 28.47 |
 
-&emsp;&emsp;2023年6月2日提交结果：
+&emsp;&emsp;2023年6月3提交结果：
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| yang | 231***@qq.com | 57.91 | 63.21 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 41.34 | 45.80 | 36.88 | 38.05 | 37.79 | 33.37 | 28.47 |
+| yang | 231***@qq.com | 59.85 | 67.08 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
 
 ### 测试集A排行榜
 
