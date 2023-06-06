@@ -6,23 +6,22 @@
 
 &emsp;&emsp;我们提供了各参赛队伍在粗粒度类别和细粒度类别的micro f1及macro f1的结果供大家参考，最终按照Final micro f1分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年6月4日，榜单更新时间：2023年6月5日。
+&emsp;&emsp;结果统计截止至2023年6月5日，榜单更新时间：2023年6月6日。
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | yang | 231***@qq.com | 49.76 | 31.55 | 59.6 | 39.91 | 44.26 | 18.83 |
 | 都行都队 | 127***@qq.com | 48.65 | 22.05 | 59.07 | 38.23 | 30.84 | 13.26 |
-| Test | her***@qq.com | 46.21 | 20.11 | 55.45 | 36.98 | 30.63 | 9.6 |
+| Test | her***@qq.com | 46.79 | 18.1 | 55.79 | 37.79 | 26.44 | 9.75 |
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 43.20 | 27.63 | 55.44 | 30.96 | 39.19 | 16.07 |
 
-&emsp;&emsp;2023年6月4日提交结果（未排名）：
+&emsp;&emsp;2023年6月5日提交结果（未排名）：
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 切忌不要改队 | yix***@ir.hit.edu.cn | 41.59 | 36.96 | 53.59 | 29.59 | 50.41 | 23.5 |
-| Test | her***@qq.com | 46.21 | 20.11 | 55.45 | 36.98 | 30.63 | 9.6 |
-| 都行都队 | 127***@qq.com | 48.63 | 23.46 | 59.71 | 37.54 | 32.83 | 14.09 |
-| yang | 231***@qq.com | 48.87 | 22.55 | 53.43 | 44.31 | 27.99 | 17.11 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 41.39 | 37.08 | 53.0 | 29.78 | 50.16 | 23.99 |
+| Test | her***@qq.com | 46.79 | 18.1 | 55.79 | 37.79 | 26.44 | 9.75 |
+| yang | 231***@qq.com | 48.29 | 20.91 | 53.88 | 42.69 | 25.69 | 16.14 |
 
 ### 测试集A排行
 
