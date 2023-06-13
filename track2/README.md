@@ -1,16 +1,29 @@
 # 赛道2：中小学作文字符级错误识别与纠正
 ## 1 排行榜
 
-### 测试集B排行榜
+### Track2测试集B排行榜
 
 &emsp;&emsp;我们提供了各参赛队伍在错误类型识别和错误纠正的效果供大家参考，具体包括F1_score（各指标加权F1）、Identify（错误类型识别F1）、Correct（错误纠正F1）、Char_detection（字粒度检测F1）、Char_correction（字粒度纠正F1）、Sent_detection（句粒度检测F1）、Sent_correction（句粒度纠正F1），最终按照F1_score分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年6月7日，榜单更新时间：2023年6月8日。
+&emsp;&emsp;结果统计截止至2023年6月9日，榜单更新时间：2023年6月13日。
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 67.33 | 74.22 | 60.44 | 62.28 | 62.76 | 55.86 | 40.02 |
 | yang | 231***@qq.com | 59.85 | 67.08 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+
+&emsp;&emsp;2023年6月9日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 59.44 | 67.30 | 51.57 | 52.50 | 55.77 | 48.16 | 33.46 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 66.75 | 73.16 | 60.33 | 62.23 | 61.95 | 56.24 | 39.81 |
+
+&emsp;&emsp;2023年6月8日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 59.89 | 67.30 | 52.48 | 53.32 | 56.61 | 49.50 | 34.31 |
 
 &emsp;&emsp;2023年6月7日提交结果：
 
