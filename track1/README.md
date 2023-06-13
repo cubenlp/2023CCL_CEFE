@@ -2,18 +2,35 @@
 
 ## 1 排行榜
 
-### 测试集B排行榜
+### Track1测试集B排行榜
 
 &emsp;&emsp;我们提供了各参赛队伍在粗粒度类别和细粒度类别的micro f1及macro f1的结果供大家参考，最终按照Final micro f1分数进行排名。
 
-&emsp;&emsp;结果统计截止至2023年6月7日，榜单更新时间：2023年6月8日。
+&emsp;&emsp;结果统计截止至2023年6月9日，榜单更新时间：2023年6月13日。
 
 | Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 52.16 | 29.64 | 56.7 | 47.62 | 42.81 | 16.46 |
 | yang | 231***@qq.com | 51.96 | 30.68 | 59.6 | 44.31 | 44.26 | 17.11 |
-| 切忌不要改队 | yix***@ir.hit.edu.cn | 51.65 | 18.74 | 55.69 | 47.62 | 21.03 | 16.46 |
+| Test | her***@qq.com | 51.6 | 23.1 | 58.3 | 44.89 | 29.73 | 16.47 |
 | 都行都队 | 127***@qq.com | 49.4 | 24.35 | 59.99 | 38.81 | 34.23 | 14.48 |
-| Test | her***@qq.com | 48.42 | 18.6 | 56.59 | 40.25 | 26.66 | 10.54 |
+
+&emsp;&emsp;2023年6月9日提交结果（未排名）：
+
+| Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 都行都队 | 127***@qq.com | 45.84 | 14.89 | 55.22 | 36.47 | 20.1 | 9.68 |
+| yang | 231***@qq.com | 49.76 | 29.62 | 59.6 | 39.91 | 44.26 | 14.98 |
+| Test | her***@qq.com | 51.6 | 23.1 | 58.3 | 44.89 | 29.73 | 16.47 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 52.15 | 26.74 | 57.03 | 47.28 | 33.28 | 20.21 |
+
+&emsp;&emsp;2023年6月8日提交结果（未排名）：
+
+| Team Name | Email | Final micro f1 | Final macro f1 | Course-grained micro f1 | Fine-grained micro f1 | Course-grained macro f1 | Fine-grained macro f1 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Test | her***@qq.com | 48.94 | 19.27 | 56.75 | 41.13 | 27.05 | 11.49 |
+| yang | 231***@qq.com | 51.87 | 30.84 | 59.6 | 44.14 | 44.26 | 17.43 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 52.16 | 29.64 | 56.7 | 47.62 | 42.81 | 16.46 |
 
 &emsp;&emsp;2023年6月7日提交结果（未排名）：
 
@@ -23,6 +40,7 @@
 | yang | 231***@qq.com | 49.04 | 22.7 | 55.04 | 43.04 | 28.63 | 16.77 |
 | 都行都队 | 127***@qq.com | 49.4 | 24.35 | 59.99 | 38.81 | 34.23 | 14.48 |
 | 切忌不要改队 | yix***@ir.hit.edu.cn | 51.65 | 18.74 | 55.69 | 47.62 | 21.03 | 16.46 |
+
 
 ### 测试集A排行
 
