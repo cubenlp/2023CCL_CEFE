@@ -2,10 +2,10 @@
 
 ## 1 排行榜
 
-### Track3测试集B排行榜
+### Track3排行榜
 
-&emsp;&emsp;我们提供了各参赛队伍在EM(Exact Match)、Bert PPL、与input的编辑距离、BLEU-4、BERTScore指标上的结果，另外，我们增加了最近在语法纠错任务上常用的评测指标，具体计算方法参考[MuCGEC](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT?spm=5176.12282016.0.0.7a106b1dPaf6TP)，排行榜将按照F0.5值进行排名，最终实际排名将综合考虑上述所有指标得到AvgScore，在此基础之上对排名前5的队伍进行人工辅助评测，得到最终排名。
-Avg Score计算方式如下：
+&emsp;&emsp;我们提供了各参赛队伍在EM(Exact Match)、Bert PPL、与input的编辑距离、BLEU-4、BERTScore指标上的结果，另外，我们增加了最近在语法纠错任务上常用的评测指标，具体计算方法参考[MuCGEC](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT?spm=5176.12282016.0.0.7a106b1dPaf6TP)，最终实际排名将综合考虑上述所有指标得到AvgScore，在此基础之上对排名前5的队伍进行人工辅助评测，得到最终排名。
+AvgScore计算方式如下：
     $$Avg Score = (EM + BLEU + F_{0.5} + BERTScore)/4 - Levenshtein - PPL_{BERT} $$
 
 &emsp;&emsp;结果统计截止至2023年6月9日，榜单更新时间：2023年6月15日。
