@@ -1,7 +1,7 @@
 # 赛道2：中小学作文字符级错误识别与纠正
 ## 1 排行榜
 
-### Track2测试集B排行榜
+### Track2排行榜
 
 &emsp;&emsp;我们提供了各参赛队伍在错误类型识别和错误纠正的效果供大家参考，具体包括F1_score（各指标加权F1）、Identify（错误类型识别F1）、Correct（错误纠正F1）、Char_detection（字粒度检测F1）、Char_correction（字粒度纠正F1）、Sent_detection（句粒度检测F1）、Sent_correction（句粒度纠正F1），最终按照F1_score分数进行排名。
 
