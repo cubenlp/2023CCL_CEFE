@@ -8,7 +8,7 @@
 Avg Score计算方式如下：
     $$Avg Score = (EM + BLEU + F_{0.5} + BERTScore)/4 - Levenshtein - PPL_{BERT} $$
 
-&emsp;&emsp;结果统计截止至2023年6月9日，榜单更新时间：2023年6月13日。
+&emsp;&emsp;结果统计截止至2023年6月9日，榜单更新时间：2023年6月15日。
 
 | Team Name | Email | AvgScore | $$F_{0.5}$$ | EM | PPL BERT | Levenshtein | BLEU-4 | BERTScore | Precision | Recall |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
