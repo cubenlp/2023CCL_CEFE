@@ -31,6 +31,71 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | yang | 231***@qq.com | 49.84 | 58.15 | 41.52 | 41.09 | 47.72 | 40.50 | 27.72 |
 
+&emsp;&emsp;2023年6月6日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 47.51 | 60.01 | 35.02 | 35.98 | 39.24 | 30.65 | 20.15 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 67.33 | 74.22 | 60.44 | 62.28 | 62.76 | 55.86 | 40.02 |
+
+&emsp;&emsp;2023年6月5日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 57.49 | 62.12 | 52.86 | 54.11 | 55.38 | 49.97 | 34.43 |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 63.45 | 69.79 | 57.11 | 59.00 | 58.79 | 53.04 | 36.50 |
+
+&emsp;&emsp;2023年6月4日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 49.76 | 55.21 | 44.32 | 45.08 | 48.02 | 41.99 | 26.78 |
+| yang | 231***@qq.com | 58.25 | 63.89 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+
+&emsp;&emsp;2023年6月3日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 切忌不要改队 | yix***@ir.hit.edu.cn | 41.34 | 45.80 | 36.88 | 38.05 | 37.79 | 33.37 | 28.47 |
+| yang | 231***@qq.com | 59.85 | 67.08 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+
+
+&emsp;&emsp;2023年6月2日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 57.91 | 63.21 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+
+&emsp;&emsp;2023年5月31日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 57.71 | 62.80 | 52.61 | 53.86 | 55.01 | 49.81 | 34.28 |
+
+&emsp;&emsp;2023年5月30日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 57.65 | 62.80 | 52.50 | 53.78 | 54.72 | 49.72 | 34.26 |
+
+&emsp;&emsp;2023年5月29日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 51.36 | 50.19 | 52.53 | 53.83 | 54.79 | 49.64 | 34.13 |
+
+&emsp;&emsp;2023年5月28日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 57.65 | 62.77 | 52.53 | 53.83 | 54.79 | 49.64 | 34.13 |
+
+&emsp;&emsp;2023年5月27日提交结果：
+
+| Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| yang | 231***@qq.com | 57.63 | 62.77 | 52.50 | 53.78 | 54.72 | 49.72 | 34.26 |
+
 ### 测试集A排行榜
 
 | Team Name | Email | F1_score | Identify | Correct | Char_detection | Char_correction | Sent_detection | Sent_correction |
